@@ -66,7 +66,14 @@ Wrong recognitions are 72
 
 Best parameters found: {'n_neighbors': 10, 'weights': 'distance', 'p': 2}
 
+The score of agent is 48
 
+Right recognitions are 61
+
+Wrong recognitions are 39
+
+
+![download](https://github.com/glalio/glalio-auth/assets/157219205/5f0c95c8-fa40-4478-a72e-ce939695fb55)
 
 
 
