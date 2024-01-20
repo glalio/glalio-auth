@@ -87,3 +87,14 @@ Wrong recognitions are 63
 
 
 ![download](https://github.com/glalio/glalio-auth/assets/157219205/5938be35-6ff7-4b5f-b7f4-e3398aaeb048)
+
+
+
+The best model with regard to scoring is random forest classifier.Now i use it to classify 3 images one for each label.The classifier is able to identify one of the three.The paper.
+These images are 
+
+![scissors](https://github.com/glalio/glalio-auth/assets/157219205/a7fb8b8c-6c8e-4d64-9e41-42f7d0c78f62)
+
+![rock](https://github.com/glalio/glalio-auth/assets/157219205/d4dc9c0a-aaf8-4ec0-900e-3ba32d26923b)
+
+![paper](https://github.com/glalio/glalio-auth/assets/157219205/4039103e-b3e4-416d-a5ef-224936f8e1fc)
