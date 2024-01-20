@@ -20,26 +20,63 @@ The N = 100 rounds
 
 Best Hyperparameters: {'C': 10, 'gamma': 0.1}
 
-The score of agent is 71
-Right recognitions are 77
-Wrong recognitions are 23
+The score of agent is 54
+
+Right recognitions are 67
+
+Wrong recognitions are 33
+
+
+![download](https://github.com/glalio/glalio-auth/assets/157219205/4b99cc39-d44d-4b64-b10d-797be32494d5)
 
 ### Random Forest classifier
 
+
 Best Hyperparameters: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
 
-The score of agent is 47
-Right recognitions are 66
-Wrong recognitions are 34
+The score of agent is 56
+
+Right recognitions are 68
+
+Wrong recognitions are 32
+
+
+![download](https://github.com/glalio/glalio-auth/assets/157219205/ab6da887-88ff-4a5b-af76-9cf6078c268e)
+
 
 ### Dense NN classifier
 
-Best parameters found:  {'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (128, 64)}
+Best parameters found:  {'batch_size': 64, 'epochs': 100}
+Dense(128, activation='relu'),
+Dense(64, activation='relu'),
+Dense(3, activation='softmax')
+
+The score of agent is -9
+
+Right recognitions are 28
+
+Wrong recognitions are 72
+
+
+![download](https://github.com/glalio/glalio-auth/assets/157219205/fe844ec6-14c4-4772-b6dd-2293d36d7d7e)
 
 
 
 ### KNN classifier
 
+Best parameters found: {'n_neighbors': 10, 'weights': 'distance', 'p': 2}
+
+
+
 
 
 ### CNN classifier
+
+The score of agent is 7
+
+Right recognitions are 37
+
+Wrong recognitions are 63
+
+
+![download](https://github.com/glalio/glalio-auth/assets/157219205/5938be35-6ff7-4b5f-b7f4-e3398aaeb048)
